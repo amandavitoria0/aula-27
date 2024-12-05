@@ -26,12 +26,20 @@ if escolha_menu == 1: #se a escolha for para realizar u
             else:
                 situacao = "Reprovado na recuperação"
         else:
-            situacao = "Reprovado por média"
-            #enviar os dados do aluno para a lista alunos
+            situacao = "Reprovado"
+
+         #enviar os dados do aluno para a lista alunos
             aluno.append([nome, faltas, media, situacao])
+elif escolha_menu == 2: #relatório
+            print("Nome: ",nome)
+            print("Faltas:", faltas)
+            print(f"Notas:,{nota1} {nota2} {nota3} {nota4}")
+            print("media:",media)
+            print("Situação:", situaçao)
+        
             cont += 1
         #relatório
-        print(aluno)
+print(aluno)
 
 
 
