@@ -14,3 +14,11 @@ def saudacoes(hora_do_dia): #Exibir a saudação correspondente a hora do dia
 resposta = int(input("Digite que horas sao:\n"))
 #CHAMO A FUNÇÃO PASSANDO PARA ELA O PARAMETRO OBRIGATORIO
 saudacoes(resposta)
+
+
+
+
+
+#DECLARAR FUNÇÃO
+#PASSAR PARAMETROS PARA FUNÇÃO
+#CHAMAR FUNÇÃO
